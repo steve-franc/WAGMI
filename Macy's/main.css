@@ -1,0 +1,222 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.newsletter{
+
+    border-style: hidden hidden solid hidden;
+    border-bottom-width: thin;
+    padding: 20px 20px 40px 0px;
+}
+
+
+.newsletter .letter{
+    float: right;
+
+}
+
+.newsletter .letter li{
+    display: inline;
+    padding: 20px 20px 20px 20px
+}
+
+
+
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    color: #F73C5C;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    border-style: hidden hidden solid hidden;
+    border-bottom-width: thin;
+
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+
+
+ /* -------------------------------------------------Hero ------------------------------------------ */
+
+
+ .hero-section{
+     justify-content: center;
+     padding: 144px 220px 114px 223px;
+     text-align: center;
+     background-image: url(Rectangle\ 3.png);
+ }
+
+  .hero-light-txt{
+      font-weight: 400;
+      color: white;
+  }
+
+  .hero-bold{
+      color: white;
+      font-size: 30px;
+  }
+
+  
+
+  .CTA-Hero{
+      padding: 15px 50px;
+      border-radius: 37px;
+      border: none;
+      font-size: 18px;
+      margin-top: 40px;
+      background-color: white;
+  }
+
+  .CTA-Hero:hover{
+    background-color: black;
+    color: white;
+  }
+
+
+/*---------------------------Latest Updates-----------------------*/
+
+
+  .holder{
+      display: flex;
+      justify-content: space-between;
+      max-width: 100%;
+  }
+
+  .holder .image-n-text-description h5{
+      font-size: 23px;
+      padding: 21px 0px 18px 0px;
+      font-family: 'Inter', sans-serif;
+  }
+
+  h3{
+      font-size: 40px;
+      font-family: 'Inter', sans-serif;
+      padding: 18px 0px 65px 0px;
+  }
+
+  .update{
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+
+
+.latest-updates-section{
+    margin-top: 142px;
+    padding-bottom: 120px;
+    
+}
+
+
+.image-n-text-description{
+    padding: 0px 10px;
+    
+}
+
+/*---------------------------Newsletter-----------------------*/
+
+.news-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.newsletter{
+    padding: 80px 60px 79px 57px;
+    background-color: #F5FEFF;
+    border: none;
+}
+
+
+.sign{
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.insider{
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 23px;
+
+}
+
+
+.news-p{
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 23px;
+}
+
+.news-CTA{
+    padding: 15px 93px;
+    border-radius: 37px;
+      border: none;
+      color: white;
+      background-color: #7A7A7A;
+}
+
+
+.news-CTA:hover{
+    background-color: black;
+}
+
+
+.reverse-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Inverse-card{
+    padding: 80px 60px 79px 57px;
+    background-color: #FFDCDC;
+    border: none;
+}
+
+.signd{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
