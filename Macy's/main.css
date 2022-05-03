@@ -9,8 +9,10 @@
 .newsletter-header{
 
     border-style: hidden hidden solid hidden;
-    border-bottom-width: thin;
+    border-bottom-width: 1px;
+    border-color: #aaaaaa;
     padding: 20px 20px 40px 0px;
+    padding-right: 8%;
 }
 
 
@@ -33,6 +35,12 @@
     display: flex;
     justify-content: space-between;
     padding: 22px 59px 27px 57px;
+    min-height: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    align-items: center;
   }
   
   /* Navbar links */
@@ -48,14 +56,11 @@
   /* Navbar links on mouse-over */
   .navbar a:hover {
     color: #F73C5C;
-  }
-  
-  /* Current/active navbar link */
-  .active {
     border-style: hidden hidden solid hidden;
     border-bottom-width: thin;
-
   }
+  
+  
   
   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
   @media screen and (max-width: 500px) {
@@ -64,6 +69,11 @@
       display: block;
     }
   }
+
+.logo{
+    cursor: pointer;
+}
+
 
 
  /* -------------------------------------------------Hero ------------------------------------------ */
@@ -74,6 +84,14 @@
      padding: 144px 220px 114px 223px;
      text-align: center;
      background-image: url(Rectangle\ 3.png);
+     height: 100%;
+ }
+
+ .contain-div{
+     flex-basis: 40%;
+     position: relative;
+    margin-left: 50px;
+
  }
 
   .hero-light-txt{
@@ -101,6 +119,7 @@
   .CTA-Hero:hover{
     background-color: black;
     color: white;
+    cursor: pointer;
   }
 
 
@@ -111,6 +130,7 @@
       display: flex;
       justify-content: space-between;
       max-width: 100%;
+      
   }
 
   .holder .image-n-text-description h5{
@@ -134,7 +154,7 @@
 
 .latest-updates-section{
     margin-top: 142px;
-    padding-bottom: 120px;
+    padding: 0 50px 120px 50px;
     
 }
 
@@ -182,14 +202,19 @@
 .news-CTA{
     padding: 15px 93px;
     border-radius: 37px;
-      border: none;
-      color: white;
-      background-color: #7A7A7A;
+    border: 2px hidden;
+    color: white;
+    background-color: #5a8b92;
 }
 
 
 .news-CTA:hover{
-    background-color: black;
+    border-style: solid;
+    background-color: #f5feff;
+    border-color: #5a8b92;
+    border-width: 2px;
+    color: black;
+    cursor: pointer;
 }
 
 
@@ -211,14 +236,95 @@
 }
 
 
+.gift-button-CTA{
+    padding: 15px 93px;
+    border-radius: 37px;
+      border: none;
+      color: black;
+      background-color: white;
+}
+
+.gift-button-CTA:hover{
+    background-color: #F73C5C;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*--------------shopping centres----------------*/
+
+
+.other-centres{
+    padding: 0 50px 120px 50px ;
+}
+
+.shopping-centres{
+    padding: 82px 0px 30px 0px;
+    border-bottom: solid #929292;
+
+    
+}
+
+.shopping-centre-contain{
+    display: flex;
+    padding: 61px 0px 20px 0px;
+}
+
+
+.centres-title{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    padding: 32px 0px 18px 0px;
+}
+
+
+.shopping-centre-contain-below{
+    display: flex;
+    padding: 61px 0px 20px 0px;
+}
 
 
 
 
 
 
+.newsletter-performance{
+    padding: 80px 60px 79px 57px;
+    background-color: #ffffff;
+    border: none;
+}
 
 
+/*---------------------------------footer----------------------*/
 
 
+.footer{
+    background-color: #04645c;
+    padding: 158px 366px 120px 191px;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-left p{
+    padding-top: 27px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.handle-flex{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+
+}
+
+
+.handle-flex ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px 0px 27px 0px;
+    font-family: 'Inter', sans-serif;
+}
 
